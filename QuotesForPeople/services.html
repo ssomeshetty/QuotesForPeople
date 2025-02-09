@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to our services page</title>
+    <link rel="stylesheet" href = "project12.css">
+</head>
+<body>
+    <header>
+        <div class ="contaner">
+            <div id="branding">
+                <h1><span class = "highlight">Random</span> Quote Generater</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href = "project12.html">Home</a> </li>
+                    <li ><a href = "about.html"> About</a> </li>
+                    <li class = "current"><a href = "services.html"> Services</a> </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+   
+    <section id="newsletter">
+        <div class = "contaner">
+            <h1>Subscribe to our Quote Generater</h1>
+            <form>
+                <input type = "email" placeholder="Enter email">
+                    <button class = "button_1"type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+    <section id="main">
+        <div class="contaner">
+            <article id = "main-col">
+               <h1 class ="page-title">Services</h1>
+               <div class="service-item">
+                <h3>Daily Inspiration</h3>
+                <p>Start your day with a fresh dose of motivation.</p>
+                <p><a href="#">Subscribe Now</a> to receive daily quotes in your inbox!</p>
+            </div>
+        
+            <div class="service-item">
+                <h3>Custom Collections</h3>
+                <p>Create personalized collections of your favorite quotes.</p>
+                <p><a href="#">Sign Up</a> to start organizing and saving your quotes.</p>
+            </div>
+        
+            <div class="service-item">
+                <h3>Search and Explore</h3>
+                <p>Find quotes by keyword, author, or category.</p>
+                <form action="/search" method="get">
+                    <input type="text" name="q" placeholder="Search quotes..." style="width: 80%; padding: 5px;">
+                    <button type="submit" style="padding: 5px 10px; background-color: #007bff; color: #fff; border: none; cursor: pointer;">Search</button>
+                </form>
+            </div>
+        
+            <div class="service-item">
+                <h3>Social Sharing</h3>
+                <p>Share your favorite quotes on social media.</p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        
+            <div class="service-item">
+                <h3>API Access</h3>
+                <p>Integrate our quote database into your applications.</p>
+                <p>Explore our <a href="#">API Documentation</a> for more details.</p>
+            </div>
+        
+            <div class="service-item">
+                <h3>Subscription Options</h3>
+                <p>Upgrade for additional features and benefits.</p>
+                <p><a href="#">View Plans</a> to choose the right subscription for you.</p>
+            </div>
+        
+            <div class="service-item">
+                <h3>Mobile App</h3>
+                <p>Access quotes on the go with our mobile app.</p>
+                <p>Download from <a href="#">App Store</a> or <a href="#">Google Play</a>.</p>
+            </div>
+        
+            <div class="service-item">
+                <h3>User Feedback and Rating</h3>
+                <p>Share your thoughts and rate your favorite quotes.</p>
+                <p><a href="#">Leave Feedback</a> and help us improve your experience.</p>
+            </div>
+        
+            <div class="service-item">
+                <h3>Quote of the Day Widget</h3>
+                <p>Embed a widget on your website to display a new quote daily.</p>
+                <p>Get the code <a href="#">here</a> to integrate into your site.</p>
+            </div>
+             
+            </article>
+
+            <aside id ="sidebar">
+                <div class ="dark">
+                <h1>Get a Quote</h1>
+                <form class ="Quote">
+                    <div>
+                        <label>Name</label>
+                        <br>
+                        <input type ="text" placeholder="Name">
+                    </div>
+                    <div>
+                        <label>Email</label>
+                        <br>
+                        <input type ="text" placeholder="Email address">
+                    </div>
+                    <div>
+                        <label>Message</label>
+                        <br>
+                       <textarea placeholder="Message"></textarea>
+                    </div>
+                    <button class = "button_1" type="submit" >Send</button>
+                </form>
+ 
+                </div>
+            </aside>
+    </div>
+    </section>
+    <footer>
+        <p>Random Quote Generater copyright @copy; 2017</p>
+    </footer>
+</body>
+</html>
